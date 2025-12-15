@@ -45,6 +45,30 @@ The code has been developed and tested in MATLAB R2024a.
         + [process_PF.m](Util/Process/process_PF.m): Performs PF.
     - [VAD](Util/VAD): Folder containing the auxiliary code for the voice activity detection (VAD).
         + [VAD.m](Util/VAD/VAD.m): Computes the VAD in the STFT domain.
+     
+# Audio examples
+The following audio examples are obtained after running the [Main.m](Main.m) file. 
+
+Desired speech signal:
+https://github.com/user-attachments/assets/30cad189-2cc7-407c-8a25-729c46106a05
+
+Microphone signal:
+https://github.com/user-attachments/assets/bee464df-1bf4-4e65-9977-305435f8a761
+
+MWF:
+https://github.com/user-attachments/assets/0e477f49-5eca-4b35-b565-341149a85365
+
+MWF<sub>ext</sub>:
+https://github.com/user-attachments/assets/3341903d-ef31-4d45-ba59-17320e852633
+
+AEC-NR:
+https://github.com/user-attachments/assets/d01a3d63-8cf9-4aaa-9585-f4b1ad144d86
+
+NR-AEC:
+https://github.com/user-attachments/assets/79dcca12-b2ff-4d1c-ad3c-5366d7cc7af3
+
+NR<sub>ext</sub>-AEC-PF:
+https://github.com/user-attachments/assets/60f7a536-807e-4382-8607-91b3a02526dc
 
 # Contact
 Arnout Roebben, Toon van Waterschoot, Jan Wouters, and Marc Moonen\
