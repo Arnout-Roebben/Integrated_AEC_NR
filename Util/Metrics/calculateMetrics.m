@@ -38,10 +38,11 @@ function [metrics_ref,metrics_processed] = calculateMetrics(sig,processed,param)
 % algorithms for combined acoustic echo cancellation and noise reduction,"
 % https://github.com/Arnout-Roebben/Integrated_AEC_NR, 2024.
 %
-% A preprint is available at
-% A. Roebben, T. van Waterschoot, J. Wouters, and M. Moonen, "Integrated 
-% Minimum Mean Squared Error Algorithms for Combined Acoustic Echo 
-% Cancellation and Noise Reduction," 2024, arXiv:2412.04267.
+% If this code has been useful to you, please cite
+% A. Roebben, T. van Waterschoot, J. Wouters and M. Moonen, "Integrated 
+% Minimum Mean Squared Error Algorithms for Combined Acoustic Echo Cancellation 
+% and Noise Reduction," in IEEE Transactions on Audio, Speech and Language 
+% Processing, vol. 34, pp. 512-528, 2026, doi: 10.1109/TASLPRO.2025.3648802.
 
 %% Initialisation
 % Throw error if start time exceeds signal length

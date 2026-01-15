@@ -2,7 +2,9 @@
 # License
 This work is licensed under the [MIT LICENSE](LICENSE.md). By downloading and/or installing this software and associated files on your computing system you agree to use the software under the terms and conditions as specified in the license agreement.
 
-If this code has been useful for you, while the manuscript is under review, please cite the preprint [[1]](#References).
+If this code has been useful for you, please cite [[1]](#References).
+
+A preprint is also available at [[3]](#References).
 
 # About
 This repository [[2]](#References) contains the MATLAB code associated with [[1]](#References), where an integrated design is followed for the combined problem of acoustic echo cancellation (AEC) and noise reduction (NR) in a general multi-microphone/multi-loudspeaker setup, with possibly linearly dependent miphone and loudspeaker signals. 
@@ -82,18 +84,20 @@ E-mail: <arnout.roebben@esat.kuleuven.be>
 This research was carried out at the ESAT Laboratory of KU Leuven, in the frame of Research Council KU Leuven C14-21-0075 ”A holistic approach to the design of integrated and distributed digital signal processing algorithms for audio and speech communication devices”, and Aspirant Grant 11PDH24N (for A. Roebben) from the Research Foundation - Flanders (FWO).
 
 # References
+
 [1]
 ```
-@misc{roebben2024integratedminimummeansquared,
-      title={Integrated Minimum Mean Squared Error Algorithms for Combined Acoustic Echo Cancellation and Noise Reduction}, 
-      author={Arnout Roebben and Toon van Waterschoot and Jan Wouters and Marc Moonen},
-      year={2024},
-      eprint={2412.04267},
-      archivePrefix={arXiv},
-      primaryClass={eess.AS},
-      url={https://arxiv.org/abs/2412.04267}, 
-}
+@article{roebben2024integratedminimummeansquared,
+  author={Roebben, Arnout and van Waterschoot, Toon and Wouters, Jan and Moonen, Marc},
+  journal={IEEE Transactions on Audio, Speech and Language Processing}, 
+  title={Integrated Minimum Mean Squared Error Algorithms for Combined Acoustic Echo Cancellation and Noise Reduction}, 
+  year={2026},
+  volume={34},
+  pages={512-528},
+  keywords={Microphones;Loudspeakers;Vectors;Noise;Cost function;Acoustics;Signal processing algorithms;Indexes;Estimation;Echo cancellers;Integrated algorithm design;audio signal processing;multi-channel;acoustic echo cancellation (AEC);noise reduction (NR);multi-channel Wiener filter (MWF)},
+  doi={10.1109/TASLPRO.2025.3648802}}
 ```
+
 
 [2]
 ```
@@ -106,3 +110,17 @@ This research was carried out at the ESAT Laboratory of KU Leuven, in the frame 
   howpublished = {https://github.com/Arnout-Roebben/Integrated\_AEC\_NR,
   langid = {english}}
 ```
+
+[3]
+```
+@misc{roebben2024integratedminimummeansquaredpreprint,
+      title={Integrated Minimum Mean Squared Error Algorithms for Combined Acoustic Echo Cancellation and Noise Reduction}, 
+      author={Arnout Roebben and Toon van Waterschoot and Jan Wouters and Marc Moonen},
+      year={2024},
+      eprint={2412.04267},
+      archivePrefix={arXiv},
+      primaryClass={eess.AS},
+      url={https://arxiv.org/abs/2412.04267}, 
+}
+```
+
